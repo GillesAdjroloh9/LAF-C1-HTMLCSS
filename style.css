@@ -60,13 +60,14 @@ body, html {
 .navigation-item {
     flex: 1;
     background-color: lightgray;
+    border: 5px solid black;
     /* padding: 0 20px; */
     /* max-width: 69.375rem; */
     margin: 0 auto;
     /* padding: 0.9375rem; */
 }
 
-.section {
+.Info {
     display: flex;
     flex-wrap: wrap;
 }
@@ -85,16 +86,20 @@ body, html {
 
 .quick-links-1 {
    flex: 1;
+   background-color: lightgray;
+   text-align: center;
+   border: 5px solid;
 }
 
-/* .quick-links-2 {
+.quick-links-2 {
+    flex: 1;
     background-color: lightgray;
-    padding: 20px;
+    /* padding: 20px; */
     
     text-align: center;
-    justify-content: left;
-    /* grid-area: quick-links-2; 
-} */
+    /* justify-content: left; */
+    /* grid-area: quick-links-2; */
+}
 
 .footer {
     /* grid-area: footer; */
